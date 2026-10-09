@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ham Band &amp; Frequency Tool: frequency to wavelength and amateur band plans</title>
+    <meta name="description" content="Free amateur radio tool: convert frequency to wavelength with velocity factor, get half-wave and quarter-wave antenna lengths, and look up which ham band a frequency is in. IARU Region 1/2/3 and US FCC band plans with mode segments and license class privileges. Runs in your browser." />
+    <meta name="keywords" content="ham radio band plan, frequency to wavelength, wavelength calculator, half wave dipole length, quarter wave length, velocity factor, IARU band plan, FCC band chart, amateur radio frequencies, which band is this frequency" />
+    <meta name="author" content="Volodymyr Kopytsia" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://hermes98761234.github.io/ham-band-frequency-tool/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="Ham Bands" />
+
+    <!-- Open Graph / Facebook / Telegram / Slack -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ham Band &amp; Frequency Tool" />
+    <meta property="og:url" content="https://hermes98761234.github.io/ham-band-frequency-tool/" />
+    <meta property="og:title" content="Ham Band &amp; Frequency Tool" />
+    <meta property="og:description" content="Frequency to wavelength, antenna lengths, and IARU / FCC amateur band plans with mode segments and license privileges." />
+    <meta property="og:image" content="https://hermes98761234.github.io/ham-band-frequency-tool/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Band plan chart with colored mode segments and the headline: which ham band is this frequency?" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="uk_UA" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ham Band &amp; Frequency Tool" />
+    <meta name="twitter:description" content="Frequency to wavelength, antenna lengths and amateur band plans. Runs in your browser." />
+    <meta name="twitter:image" content="https://hermes98761234.github.io/ham-band-frequency-tool/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Ham Band &amp; Frequency Tool",
+        "url": "https://hermes98761234.github.io/ham-band-frequency-tool/",
+        "description": "Converts frequency and wavelength, computes antenna lengths with velocity factor, and shows IARU Region 1/2/3 and US amateur band plans with mode segments and license-class privileges.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": ["en", "uk"],
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Volodymyr Kopytsia" }
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>This tool needs JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
